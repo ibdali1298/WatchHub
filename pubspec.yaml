@@ -1,0 +1,36 @@
+name: watchhub3
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI Packages
+  cupertino_icons: ^1.0.8
+  lottie: ^3.1.0
+  google_fonts: ^6.1.0
+  animate_do: ^3.1.0
+
+  # ✨ FIREBASE PACKAGES (Ye zaroori hain Login ke liye)
+  firebase_core: ^3.10.0
+  firebase_auth: ^5.4.0
+  cloud_firestore: ^5.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Assets Setting (Bilkul Sahi Spacing)
+  assets:
+    - assets/images/
+  
